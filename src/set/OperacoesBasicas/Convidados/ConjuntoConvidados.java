@@ -43,7 +43,10 @@ public class ConjuntoConvidados {
         conjuntoDeConvidados.adicionarConvidado("conv 5", 005);
         conjuntoDeConvidados.adicionarConvidado("conv 5", 006);
 
-        conjuntoDeConvidados.exibirConvidados();
+        //conjuntoDeConvidados.exibirConvidados();
+        //conjuntoDeConvidados.removerConvidado(5);
+        //conjuntoDeConvidados.exibirConvidados();
+        System.out.println(conjuntoDeConvidados.contarConvidados());
 
     }
 
