@@ -21,5 +21,23 @@ public class Convidados {
 
         return "Convidado {" + nome + "}, Código do convite {" + codigoConvite + "}\n";
     }
+
+    /*
+    @Override
+    public boolean equals(Object o){
+        if(this ==o){
+            return true;
+        }
+        if(!(o instanceof Convidados convidados)){
+            return false;
+        }
+        return getCodigoConvite() == convidados.getCodigoConvite();
+    }
+
+    @Override
+    public int hashCode(){
+        return Object.hash(getCodigoConvite());
+    }
+    */
     
 }
